@@ -1,0 +1,51 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+iris_here/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore log files and system files
+*.log
+.DS_Store
+
+# Ignore test results and coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore datasets (if large or temporary)
+data/
+*.csv
+*.json
+*.xls
+*.xlsx
+
+# Ignore package dependencies (if using requirements.txt or Pipenv)
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
